@@ -1,6 +1,18 @@
 # Ubuntu Init
 Install apps and programming languages ​​on a fresh ubuntu 18.04 installation.
+## How to use
+Firstly you have to clone this repo.
 
+```sudo apt-get install git```
+
+```git clone https://github.com/bnsouzas/ubuntu-init.git```
+
+After clone, run the follow command.
+Obs.: `time` command is optional.
+
+```time sudo sh install.sh```
+
+ALL DONE!!!
 ## Apps
 
 ### General
