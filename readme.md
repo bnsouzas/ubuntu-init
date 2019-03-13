@@ -17,6 +17,7 @@ ALL DONE!!!
 
 ### General
 
+- Slack
 - Spotify
 
 ### Development

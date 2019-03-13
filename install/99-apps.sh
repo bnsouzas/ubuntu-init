@@ -10,3 +10,4 @@ snap install redis-desktop-manager
 apt-get -y  install dbeaver-ce
 # others
 snap install spotify
+snap install slack --classic
