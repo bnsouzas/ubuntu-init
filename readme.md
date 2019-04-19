@@ -13,14 +13,14 @@ Obs.: `time` command is optional.
 ```time sudo sh install.sh```
 
 ALL DONE!!!
-## Apps
+# Apps
 
-### General
+## General
 
 - Slack
 - Spotify
 
-### Development
+## Development
 
 - Visual Studio Code
 - DBeaver
@@ -33,7 +33,22 @@ ALL DONE!!!
 - Java
   - Default Open JDK
   - Open JDK 8
+  - Apache Maven
+  - Gradle
 - Nodejs
   - 10.x.x
 - Python
   - 3.7.2
+  - pip
+
+## Virtualization and Conteiners
+- Docker
+- Virtual Box
+- Kubectl
+- Helm
+- Minikuke
+
+## Cloud Command Line
+- Amazon Web Services
+- Microsoft Azure
+- Google Cloud Platform
