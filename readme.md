@@ -35,11 +35,13 @@ ALL DONE!!!
   - Open JDK 8
   - Apache Maven
   - Gradle
+- Kotlin
 - Nodejs
   - 10.x.x
 - Python
   - 3.7.2
   - pip
+- .NET Core
 
 ## Virtualization and Conteiners
 - Docker

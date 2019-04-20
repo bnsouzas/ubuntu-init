@@ -2,11 +2,17 @@
 MAVEN_VERSION=3.6.1
 GRADLE_VERSION=5.4
 
+# Java
 apt-get update
 apt-get install default-jdk -y
 apt-get install openjdk-8-jdk -y
 rm -f /etc/profile.d/java-home.sh
 echo "export JAVA_HOME='/usr/lib/jvm/java-11-openjdk-amd64'" >> /etc/profile.d/java-home.sh
+
+#kotlin
+curl -s https://get.sdkman.io | bash
+source ~/.sdkman/bin/sdkman-init.sh
+sdk install kotlin
 
 #Install Apache Maven
 cd /opt
@@ -25,5 +31,5 @@ cd /opt/gradle
 wget https://services.gradle.org/distributions/gradle-$GRADLE_VERSION-bin.zip
 unzip -d /opt/gradle gradle-$GRADLE_VERSION-bin.zip
 rm -f /etc/profile.d/gradle.sh
-echo "export PATH=\$PATH:/opt/gradle/gradle-$GRADLE_VERSION/bin" >> rm -f /etc/profile.d/gradle.sh
+echo "export PATH=\$PATH:/opt/gradle/gradle-$GRADLE_VERSION/bin" >> /etc/profile.d/gradle.sh
 rm -f gradle-$GRADLE_VERSION-bin.zip
