@@ -1,6 +1,6 @@
 #!/bin/sh
 # Amazon Web Services
-pip3 install awscli --upgrade --user
+pip3 install awscli --upgrade
 aws --version
 
 # Azure

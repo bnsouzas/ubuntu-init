@@ -14,10 +14,16 @@ cd Python-$PYTHON37_VERSION
 make -j8 build_all
 make -j8 altinstall
 
-#pip3
+# pip3
 curl -O https://bootstrap.pypa.io/get-pip.py
-python3.7 get-pip.py --user
+python3.7 get-pip.py
 rm -f /etc/profile.d/local-bin.sh
-echo "export PATH=~/.local/bin:$PATH" >> /etc/profile.d/local-bin.sh
+echo "export PATH=~/.local/bin:\$PATH" >> /etc/profile.d/local-bin.sh
+source /etc/profile.d/local-bin.sh
+
 python3.7 -V
 pip3 -V
+
+
+# VirtualEnv
+pip3 install virtualenv --help
